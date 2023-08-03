@@ -1,0 +1,20 @@
+#navbar{
+    height: 180px;
+    position: relative;
+}
+
+#navbar-container{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-itens li:nth-child(2){
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
+
+#footer_content {
+    grid-template-columns: 1fr;
+}
+

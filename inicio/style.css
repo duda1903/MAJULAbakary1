@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* navbar */
+#navbar {
+    width: 100%;
+    background: #131A21;
+    color: #DA9B3D;
+    height: 12%;
+    position:fixed;
+    top: 0;
+    left: 0;
+
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-itens {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-itens li{
+  display: inline;
+}
+
+#navbar-itens li a{
+  color: #DA9B3D;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#showcase{
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/showcase.jpg') no-repeat center center/cover;
+}
+
+#parceiras {
+    width: 100%;
+    background: #131A21;
+    color: #DA9B3D;
+    padding: 50px;
+}
+
+#parceiras-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 15px;
+
+}
+
+.parceiras {
+    display: inline-block;
+    width: 45%;
+}
+
+footer {
+    width: 100%;
+    color: #eee;
+  }
+  
+  .footer-link{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #logo-footer{
+    position: absolute;
+    margin-top:-2%;
+    margin-left: -3%;
+    width:12%;
+    height:12%;
+  }
+  
+  #footer_content {
+    background-color: #131A21;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+  }
+  
+  
+  .footer-list{
+    display: flex;
+    padding-top: 65px;
+    flex-direction: column;
+    gap:0.75rem;
+    list-style: none;
+
+  }
+  
+  .footer-list .footer-link{
+    color: #eee;
+    transition: all 0.4s;
+  }
+  
+  .footer-list .footer-link:hover{
+    color: #7f37c9;
+  }
+  
+  
+  #footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #131A21;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+  }
+  
+  
